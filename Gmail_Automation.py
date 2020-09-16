@@ -19,4 +19,4 @@ conn.login("sendersemail@gmail.com","password123")
 
 #Send Mail
 # obj.send("sender's mail", "Receiver's Mail" , "Message")
-conn.send("sendersemail@gmail.com", "thesaahilraj@gmail.com" ,"Subject: Automation \n\n Body: This mail is Sent using gmail Automation")
+conn.sendmail("sendersemail@gmail.com", "thesaahilraj@gmail.com" ,"Subject: Automation \n\n Body: This mail is Sent using gmail Automation")
